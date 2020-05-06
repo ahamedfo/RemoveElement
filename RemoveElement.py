@@ -5,7 +5,7 @@ class Solution(object):
             if l != val:
                 nums[idx] = nums[k]
                 idx += 1
-        return idx + 1
+        return idx 
         """
         :type nums: List[int]
         :type val: int

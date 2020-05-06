@@ -1,13 +1,10 @@
 class Solution(object):
-    def removeElement(self, nums, val):
-        idx = 0
-        for k,l in enumerate(nums):
-            if l != val:
-                nums[idx] = nums[k]
-                idx += 1
-        return idx 
+    def strStr(self, haystack, needle):
+        if needle in haystack:
+            return haystack.index(needle)
+        return -1
         """
-        :type nums: List[int]
-        :type val: int
+        :type haystack: str
+        :type needle: str
         :rtype: int
         """
